@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="2.css">
+	<title>
+		Application for Research Intern
+	</title>
+
+</head>
+
+<body>
+	<h1>Application form</h1>
+	<form id="form">
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+			<input type="text"
+				id="age"
+				placeholder="Enter your age" />
+		</div>
+			<div class="form-control">
+	<label>Nationality</label>
+	<!-- Input Type Checkbox -->
+	<label for="inp-1">
+		<input type="checkbox" name="inp">Indian</input>
+	</label>
+	<label for="inp-2">
+		<input type="checkbox" name="inp">Foreigner</input>
+	</label>
+</div>
+
+		<div class="form-control">
+			<label for="College name" id="label-College name">
+				College Name
+			</label>
+			<input type="text"
+				id="College name"
+				placeholder="Enter your college name" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Course you are currently studying?
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="M.Sc.">M.Sc.</option>
+				<option value="M.tech">M.tech</option>
+				<option value="P.hd">
+					P.hD.
+				</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+		<div class="form-control">
+			<label>
+				Internship type
+			</label>
+			<!-- Input Type Radio Button -->
+			<label for="type-1">
+				<input type="radio"
+					id="type-1"
+					name="type">Training</input>
+			</label>
+			<label for="type-2">
+				<input type="radio"
+					id="type-2"
+					name="type">Dissertation</input>
+			</label>
+		</div>
+		
+		<div class="form-control">
+			<label>Preference of Subject
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">Quantum Mechanics</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Astrophysics</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Nanophotonics</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Laser Physics</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">Theortical Physics</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Computer Programming</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Traffic Engineering</input></label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Anything you want to add from your past experience
+			</label>
+			<small>(*Optional)</small>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+</html>
